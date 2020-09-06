@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum FloatingInputEditMode {
+public enum FloatingInputEditMode {
     case secret
     case visible
 }

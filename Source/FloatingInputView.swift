@@ -10,7 +10,7 @@ import UIKit
 
 public class FloatingInputView: BaseView<FloatingInputViewModel> {
 
-    override var intrinsicContentSize: CGSize { CGSize(width: .zero, height: 60) }
+    public override var intrinsicContentSize: CGSize { CGSize(width: .zero, height: 60) }
 
     private(set) lazy var titleLbl = UILabel()
     private(set) lazy var textField = UITextField()
@@ -128,11 +128,11 @@ extension FloatingInputView: UITextFieldDelegate {
         print(self.data.value)
     }
 
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    public func textFieldDidEndEditing(_ textField: UITextField) {
         self.viewState = self.data.value.isEmpty ? .notEditingUnfocused : .editingUnfocused
     }
 
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.textField.resignFirstResponder()
 
         return true

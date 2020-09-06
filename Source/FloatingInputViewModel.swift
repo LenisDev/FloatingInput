@@ -8,12 +8,25 @@
 
 import Foundation
 
-struct FloatingInputViewModel: BaseViewModel {
-    var id = UUID()
+public struct FloatingInputViewModel: BaseViewModel {
+    public var id = UUID()
 
-    var inputKeypad = FloatingInputKeyPad.default
-    var inputMode = FloatingInputEditMode.visible
+    var inputKeypad: FloatingInputKeyPad
+    var inputMode: FloatingInputEditMode
 
     var title = String()
     var value = String()
+
+    public init(title: String = String(),
+                value: String = String(),
+                inputKeypad: FloatingInputKeyPad = .default,
+                inputMode: FloatingInputEditMode = .visible) {
+        self.title = title
+        self.value = value
+
+        self.inputKeypad = inputKeypad
+        self.inputMode = inputMode
+        
+    }
+
 }

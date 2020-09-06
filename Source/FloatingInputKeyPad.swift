@@ -8,9 +8,9 @@
 
 import Foundation
 
-enum FloatingInputKeyPad {
+public enum FloatingInputKeyPad {
     case `default`
-    case alphabet
     case number
     case decimal
+    case alphabet
 }

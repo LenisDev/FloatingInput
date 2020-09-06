@@ -8,14 +8,16 @@
 
 import UIKit
 
-struct RectStyle: Stylable {
+public struct RectStyle: Stylable {
 
-    var bgColor: UIColor { .clear }
+    public var bgColor: UIColor { .clear }
 
-    var tintColor: UIColor { .clear }
+    public var tintColor: UIColor { .clear }
 
-    var border: Border { Border(color: .gray, width: 1, edges: [.bottom]) }
+    public var border: Border { Border(color: .gray, width: 1, edges: [.bottom]) }
 
-    var radius: Radius { Radius(size: 5, corners: [.allCorners]) }
+    public var radius: Radius { Radius(size: 5, corners: [.allCorners]) }
+
+    public init() { }
 
 }

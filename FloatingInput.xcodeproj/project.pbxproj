@@ -10,6 +10,24 @@
 		13A82A20250554B200CF718D /* FloatingInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A82A16250554B100CF718D /* FloatingInput.framework */; };
 		13A82A25250554B200CF718D /* FloatingInputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A24250554B200CF718D /* FloatingInputTests.swift */; };
 		13A82A27250554B200CF718D /* FloatingInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A82A19250554B100CF718D /* FloatingInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13C4B68B25055BBF00182A8F /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A75250557B300CF718D /* Border.swift */; };
+		13C4B68C25055BBF00182A8F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A72250557B200CF718D /* DesignableView.swift */; };
+		13C4B68D25055BBF00182A8F /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A74250557B300CF718D /* Radius.swift */; };
+		13C4B68E25055BBF00182A8F /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A73250557B300CF718D /* Stylable.swift */; };
+		13C4B68F25055BBF00182A8F /* CALayer+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A7A2505582800CF718D /* CALayer+Border.swift */; };
+		13C4B69025055BBF00182A8F /* Number+UIEdgeInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A6F2505577700CF718D /* Number+UIEdgeInset.swift */; };
+		13C4B69125055BBF00182A8F /* UIStackView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A6D2505576C00CF718D /* UIStackView+Init.swift */; };
+		13C4B69225055BBF00182A8F /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A7C2505583600CF718D /* UIView+Radius.swift */; };
+		13C4B69325055BBF00182A8F /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A6B2505575800CF718D /* UIView+Constraints.swift */; };
+		13C4B69425055BBF00182A8F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A672505574000CF718D /* BaseView.swift */; };
+		13C4B69525055BBF00182A8F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A662505574000CF718D /* BaseViewModel.swift */; };
+		13C4B69625055BBF00182A8F /* FloatingInputKeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A542505568F00CF718D /* FloatingInputKeyPad.swift */; };
+		13C4B69725055BBF00182A8F /* FloatingInputEditMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A572505568F00CF718D /* FloatingInputEditMode.swift */; };
+		13C4B69825055BBF00182A8F /* FloatingInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A532505568F00CF718D /* FloatingInputView.swift */; };
+		13C4B69925055BBF00182A8F /* FloatingInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A512505568F00CF718D /* FloatingInputViewModel.swift */; };
+		13C4B69A25055BBF00182A8F /* FloatingInputViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A562505568F00CF718D /* FloatingInputViewState.swift */; };
+		13C4B69B25055BBF00182A8F /* RectStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A522505568F00CF718D /* RectStyle.swift */; };
+		13C4B69C25055BBF00182A8F /* FloatingInput.h in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A19250554B100CF718D /* FloatingInput.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +50,7 @@
 		13A82A512505568F00CF718D /* FloatingInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputViewModel.swift; sourceTree = "<group>"; };
 		13A82A522505568F00CF718D /* RectStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectStyle.swift; sourceTree = "<group>"; };
 		13A82A532505568F00CF718D /* FloatingInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputView.swift; sourceTree = "<group>"; };
-		13A82A542505568F00CF718D /* FloatingInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInput.swift; sourceTree = "<group>"; };
-		13A82A552505568F00CF718D /* FloatingInputKeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputKeyPad.swift; sourceTree = "<group>"; };
+		13A82A542505568F00CF718D /* FloatingInputKeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputKeyPad.swift; sourceTree = "<group>"; };
 		13A82A562505568F00CF718D /* FloatingInputViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputViewState.swift; sourceTree = "<group>"; };
 		13A82A572505568F00CF718D /* FloatingInputEditMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputEditMode.swift; sourceTree = "<group>"; };
 		13A82A662505574000CF718D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
@@ -90,9 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				13A82A642505571E00CF718D /* Core */,
-				13A82A542505568F00CF718D /* FloatingInput.swift */,
+				13A82A542505568F00CF718D /* FloatingInputKeyPad.swift */,
 				13A82A572505568F00CF718D /* FloatingInputEditMode.swift */,
-				13A82A552505568F00CF718D /* FloatingInputKeyPad.swift */,
 				13A82A532505568F00CF718D /* FloatingInputView.swift */,
 				13A82A512505568F00CF718D /* FloatingInputViewModel.swift */,
 				13A82A562505568F00CF718D /* FloatingInputViewState.swift */,
@@ -272,6 +288,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C4B68B25055BBF00182A8F /* Border.swift in Sources */,
+				13C4B68C25055BBF00182A8F /* DesignableView.swift in Sources */,
+				13C4B68D25055BBF00182A8F /* Radius.swift in Sources */,
+				13C4B68E25055BBF00182A8F /* Stylable.swift in Sources */,
+				13C4B68F25055BBF00182A8F /* CALayer+Border.swift in Sources */,
+				13C4B69025055BBF00182A8F /* Number+UIEdgeInset.swift in Sources */,
+				13C4B69125055BBF00182A8F /* UIStackView+Init.swift in Sources */,
+				13C4B69225055BBF00182A8F /* UIView+Radius.swift in Sources */,
+				13C4B69325055BBF00182A8F /* UIView+Constraints.swift in Sources */,
+				13C4B69425055BBF00182A8F /* BaseView.swift in Sources */,
+				13C4B69525055BBF00182A8F /* BaseViewModel.swift in Sources */,
+				13C4B69625055BBF00182A8F /* FloatingInputKeyPad.swift in Sources */,
+				13C4B69725055BBF00182A8F /* FloatingInputEditMode.swift in Sources */,
+				13C4B69825055BBF00182A8F /* FloatingInputView.swift in Sources */,
+				13C4B69925055BBF00182A8F /* FloatingInputViewModel.swift in Sources */,
+				13C4B69A25055BBF00182A8F /* FloatingInputViewState.swift in Sources */,
+				13C4B69B25055BBF00182A8F /* RectStyle.swift in Sources */,
+				13C4B69C25055BBF00182A8F /* FloatingInput.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +500,7 @@
 		13A82A2E250554B200CF718D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FloatingInputTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,6 +518,7 @@
 		13A82A2F250554B200CF718D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FloatingInputTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
