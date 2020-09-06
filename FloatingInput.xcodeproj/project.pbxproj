@@ -29,6 +29,24 @@
 		13A82A1F250554B200CF718D /* FloatingInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A82A24250554B200CF718D /* FloatingInputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingInputTests.swift; sourceTree = "<group>"; };
 		13A82A26250554B200CF718D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A82A512505568F00CF718D /* FloatingInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputViewModel.swift; sourceTree = "<group>"; };
+		13A82A522505568F00CF718D /* RectStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectStyle.swift; sourceTree = "<group>"; };
+		13A82A532505568F00CF718D /* FloatingInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputView.swift; sourceTree = "<group>"; };
+		13A82A542505568F00CF718D /* FloatingInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInput.swift; sourceTree = "<group>"; };
+		13A82A552505568F00CF718D /* FloatingInputKeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputKeyPad.swift; sourceTree = "<group>"; };
+		13A82A562505568F00CF718D /* FloatingInputViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputViewState.swift; sourceTree = "<group>"; };
+		13A82A572505568F00CF718D /* FloatingInputEditMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingInputEditMode.swift; sourceTree = "<group>"; };
+		13A82A662505574000CF718D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		13A82A672505574000CF718D /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		13A82A6B2505575800CF718D /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		13A82A6D2505576C00CF718D /* UIStackView+Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Init.swift"; sourceTree = "<group>"; };
+		13A82A6F2505577700CF718D /* Number+UIEdgeInset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Number+UIEdgeInset.swift"; sourceTree = "<group>"; };
+		13A82A72250557B200CF718D /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		13A82A73250557B300CF718D /* Stylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
+		13A82A74250557B300CF718D /* Radius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		13A82A75250557B300CF718D /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		13A82A7A2505582800CF718D /* CALayer+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Border.swift"; sourceTree = "<group>"; };
+		13A82A7C2505583600CF718D /* UIView+Radius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Radius.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +89,15 @@
 		13A82A18250554B100CF718D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				13A82A19250554B100CF718D /* FloatingInput.h */,
-				13A82A1A250554B100CF718D /* Info.plist */,
+				13A82A642505571E00CF718D /* Core */,
+				13A82A542505568F00CF718D /* FloatingInput.swift */,
+				13A82A572505568F00CF718D /* FloatingInputEditMode.swift */,
+				13A82A552505568F00CF718D /* FloatingInputKeyPad.swift */,
+				13A82A532505568F00CF718D /* FloatingInputView.swift */,
+				13A82A512505568F00CF718D /* FloatingInputViewModel.swift */,
+				13A82A562505568F00CF718D /* FloatingInputViewState.swift */,
+				13A82A522505568F00CF718D /* RectStyle.swift */,
+				13A82A502505562600CF718D /* Supporting Files */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -84,6 +109,57 @@
 				13A82A26250554B200CF718D /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		13A82A502505562600CF718D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A82A19250554B100CF718D /* FloatingInput.h */,
+				13A82A1A250554B100CF718D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A82A642505571E00CF718D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				13A82A71250557A700CF718D /* Design */,
+				13A82A6A2505574C00CF718D /* Extensions */,
+				13A82A652505573600CF718D /* MVVM */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		13A82A652505573600CF718D /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				13A82A672505574000CF718D /* BaseView.swift */,
+				13A82A662505574000CF718D /* BaseViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		13A82A6A2505574C00CF718D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13A82A7A2505582800CF718D /* CALayer+Border.swift */,
+				13A82A6F2505577700CF718D /* Number+UIEdgeInset.swift */,
+				13A82A6D2505576C00CF718D /* UIStackView+Init.swift */,
+				13A82A7C2505583600CF718D /* UIView+Radius.swift */,
+				13A82A6B2505575800CF718D /* UIView+Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13A82A71250557A700CF718D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				13A82A75250557B300CF718D /* Border.swift */,
+				13A82A72250557B200CF718D /* DesignableView.swift */,
+				13A82A74250557B300CF718D /* Radius.swift */,
+				13A82A73250557B300CF718D /* Stylable.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +224,7 @@
 				TargetAttributes = {
 					13A82A15250554B100CF718D = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 					13A82A1E250554B200CF718D = {
 						CreatedOnToolsVersion = 11.7;
@@ -340,12 +417,13 @@
 		13A82A2B250554B200CF718D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,6 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.manishpandey-git.FloatingInput";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,12 +442,13 @@
 		13A82A2C250554B200CF718D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

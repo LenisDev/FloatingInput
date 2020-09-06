@@ -10,7 +10,23 @@
 		13A82A3D2505551400CF718D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A3C2505551400CF718D /* AppDelegate.swift */; };
 		13A82A412505551400CF718D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A82A402505551400CF718D /* ViewController.swift */; };
 		13A82A492505551600CF718D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A82A472505551600CF718D /* LaunchScreen.storyboard */; };
+		13A82A61250556D600CF718D /* FloatingInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A82A60250556D600CF718D /* FloatingInput.framework */; };
+		13A82A62250556D600CF718D /* FloatingInput.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 13A82A60250556D600CF718D /* FloatingInput.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13A82A63250556D600CF718D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				13A82A62250556D600CF718D /* FloatingInput.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13A82A392505551400CF718D /* FloatingInputExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingInputExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,6 +34,7 @@
 		13A82A402505551400CF718D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13A82A482505551600CF718D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13A82A4A2505551600CF718D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A82A60250556D600CF718D /* FloatingInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FloatingInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A82A61250556D600CF718D /* FloatingInput.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +54,7 @@
 			children = (
 				13A82A3B2505551400CF718D /* FloatingInputExamples */,
 				13A82A3A2505551400CF718D /* Products */,
+				13A82A5F250556D600CF718D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,12 +69,20 @@
 		13A82A3B2505551400CF718D /* FloatingInputExamples */ = {
 			isa = PBXGroup;
 			children = (
-				13A82A3C2505551400CF718D /* AppDelegate.swift */,
 				13A82A402505551400CF718D /* ViewController.swift */,
+				13A82A3C2505551400CF718D /* AppDelegate.swift */,
 				13A82A472505551600CF718D /* LaunchScreen.storyboard */,
 				13A82A4A2505551600CF718D /* Info.plist */,
 			);
 			path = FloatingInputExamples;
+			sourceTree = "<group>";
+		};
+		13A82A5F250556D600CF718D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A82A60250556D600CF718D /* FloatingInput.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,6 +95,7 @@
 				13A82A352505551400CF718D /* Sources */,
 				13A82A362505551400CF718D /* Frameworks */,
 				13A82A372505551400CF718D /* Resources */,
+				13A82A63250556D600CF718D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
