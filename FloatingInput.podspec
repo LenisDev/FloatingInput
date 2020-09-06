@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/LenisDev/FloatingInput.git', :tag => s.version }
   s.documentation_url = 'https://lenisdev.github.io/FloatingInput/index.html'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.swift_versions = ['5.1']
+  s.swift_versions = ['5.1', '5.2']
 
   s.source_files = ['Source/*.swift', 'Source/**/*.swift']
 
