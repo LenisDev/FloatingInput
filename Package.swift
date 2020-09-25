@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(name: "FloatingInput",
-                      platforms: [.iOS(.v10)],
+                      platforms: [.iOS(.v11)],
                       products: [.library(name: "FloatingInput",
                                           targets: ["FloatingInput"])],
                       targets: [.target(name: "FloatingInput",

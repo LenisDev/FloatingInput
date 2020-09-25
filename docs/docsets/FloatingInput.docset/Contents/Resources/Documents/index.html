@@ -135,9 +135,90 @@
         <section class="section">
           <div class="section-content top-matter">
             
-            <h1 id='floatinginput' class='heading'>FloatingInput</h1>
+            <p><img src="./Logo.png" alt="Project Logo"></p>
+
+<p><img src="https://img.shields.io/github/license/LenisDev/FloatingInput" alt="License MIT">
+<img src="https://github.com/LenisDev/FloatingInput/workflows/GHActionCI/badge.svg" alt="CI Tests">
+<img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat%22" alt="Carthage compatibility">
+<img src="https://img.shields.io/cocoapods/v/FloatingInput.svg" alt="pod">
+<img src="https://img.shields.io/cocoapods/p/FloatingInput" alt="Plateform compatibility"></p>
+
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#installation-guide">Installation Guide</a></li>
+<li><a href="https://lenisdev.github.io/FloatingInput/index.html">Full Documentation</a></li>
+<li><a href="#contribute">Contribute</a></li>
+</ul>
+<h3 id='overview' class='heading'>Overview</h3>
 
 <p>Easy to use functional floating input view for iOS projects.</p>
+
+<p>Checkout <a href="https://github.com/LenisDev/FloatingInput/tree/master/Examples/FloatingInputExamples">example project</a></p>
+<h3 id='usage' class='heading'>Usage</h3>
+<pre class="highlight swift"><code>
+  <span class="c1">// Step 1 - create</span>
+  <span class="k">let</span> <span class="nv">floatingInput</span> <span class="o">=</span> <span class="kt">FloatingInputView</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">FloatingInputViewModel</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="s">"Enter text"</span><span class="p">))</span>
+
+  <span class="c1">// Step 2: Customize</span>
+  <span class="k">self</span><span class="o">.</span><span class="n">floatingInput</span><span class="o">.</span><span class="nf">style</span><span class="p">(</span><span class="kt">RectStyle</span><span class="p">())</span>
+</code></pre>
+
+<p><br></p>
+<h3 id='installation-guide' class='heading'>Installation Guide</h3>
+<h4 id='carthage' class='heading'>Carthage</h4>
+
+<p>Step 1: 
+Add following to your CartFile</p>
+<pre class="highlight plaintext"><code>github "LenisDev/FloatingInput" ~&gt; 0.0.1
+</code></pre>
+
+<p>Step 2:
+run <code>carthage update</code> from current project directory.</p>
+
+<p><em>That&rsquo;s all, you have it installed.</em></p>
+
+<p><br></p>
+<h4 id='cocoapods' class='heading'>CocoaPods</h4>
+
+<p>Step 1:
+Add <code>pod &#39;FloatingInput&#39;, &#39;~&gt; 0.0.1&#39;</code> to your Podfile:</p>
+<pre class="highlight plaintext"><code>target 'MyApp' do
+  pod 'FloatingInput', '~&gt; 0.0.1'
+end
+</code></pre>
+
+<p>Step 2:
+run <code>pod install</code> from current project directory.</p>
+
+<p><em>That&rsquo;s all, you have it installed.</em></p>
+
+<p><br></p>
+
+<blockquote>
+<p>Try it using following command</p>
+<pre class="highlight plaintext"><code>pod try FloatingInput
+</code></pre>
+</blockquote>
+
+<p><br></p>
+<h4 id='swift-package-manager' class='heading'>Swift Package Manager</h4>
+<pre class="highlight plaintext"><code>dependencies: [
+    .package(url: "https://github.com/LenisDev/FloatingInput.git", .upToNextMajor(from: "0.0.1"))
+]
+</code></pre>
+
+<p><br></p>
+<h3 id='contribute' class='heading'>Contribute</h3>
+
+<blockquote>
+
+<ul>
+<li>Play around and report bugs</li>
+<li>Fix issues and create PR</li>
+<li>Add documentations and new features</li>
+</ul>
+</blockquote>
 
           </div>
         </section>
