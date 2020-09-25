@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UIView {
+extension UIView {
 
     @discardableResult
     func sameSize(as parentView: UIView, margin: UIEdgeInsets = .zero) -> UIView {
