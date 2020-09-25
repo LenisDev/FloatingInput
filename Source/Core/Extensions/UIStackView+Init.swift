@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UIStackView {
+extension UIStackView {
 
     /// Creates stack view with given parameter values.
     /// 

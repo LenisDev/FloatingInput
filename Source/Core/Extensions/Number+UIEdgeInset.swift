@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension Int {
+extension Int {
 
     /// returns `UIEdgeInsets` by making all sides same as current value
     var uiEdgeInsets: UIEdgeInsets {
