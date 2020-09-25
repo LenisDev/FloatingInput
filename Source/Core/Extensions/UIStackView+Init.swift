@@ -35,7 +35,7 @@ extension UIStackView {
 
 }
 
-public extension UIStackView {
+extension UIStackView {
 
     /// Removes all subviews from stackview
     func removeAllArrangedSubviews() {

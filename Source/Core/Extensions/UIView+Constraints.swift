@@ -27,7 +27,7 @@ extension UIView {
 
 }
 
-public extension UIView {
+extension UIView {
 
     @discardableResult
     func with(width: CGFloat? = nil, height: CGFloat? = nil) -> Self {
@@ -47,7 +47,7 @@ public extension UIView {
 
 }
 
-public extension UIView {
+extension UIView {
 
     @discardableResult
     func add(to parentView: UIView) -> Self {

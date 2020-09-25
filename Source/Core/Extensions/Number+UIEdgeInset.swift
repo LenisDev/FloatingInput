@@ -22,7 +22,7 @@ extension Int {
 
 }
 
-public extension CGFloat {
+extension CGFloat {
 
     /// returns `UIEdgeInsets` by making all sides same as current value
     var uiEdgeInsets: UIEdgeInsets {
